@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Dropdown menu</title>
+</head>
+<body>
+    <!-- <div class="menu__bar">
+         <a href="/" id="navbar__logo"> <i class="fa-sharp fa-regular fa-gem fa-lg"></i>TECHWAVE</a>
+
+      <ul>
+            <li> <a href="#" class="navbar__logo"> Catogaries <i class="fas fa-caret-down"></i></a></li>
+            <div class="dropdown__menu">
+                <ul>
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">phone</a></li>
+                    <li><a href="#">laptop</a></li>
+                </ul>
+            </div>
+            <li> <a href="#" class="navbar__links">Home</a></li>
+            <li> <a href="#" class="navbar__links"> Search</a></li>
+            <li> <a href="#" class="navbar__links"> Sign up </a> </li>
+            
+      </ul>
+    </div> -->
+    <nav class="navbar">
+        <!-- the border for the logo -->
+        <div class="navbar__container">
+            <!-- website logo -->
+            <a href="/" id="navbar__logo"> <i class="fa-sharp fa-regular fa-gem fa-lg"></i>TECHWAVE</a>
+                <!-- <i class="fa-sharp fa-regular fa-gem fa-lg"></i>TECHWAVE -->
+            
+            <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="Adminindex.html" class="navbar__links">MainPage</a> </li>
+           
+            <li class="navbar__btn"><a href="index.html" 
+                class="button">Sign out</a></li>
+        </ul>
+        </div>
+    </nav>
+
+
+
+    <br/>
+    <br/>
+    <br/>
+   <center>
+    <table border="0"  align="center">
+    <form enctype="multipart/form-data" action="../PHP/add.php" method="POST"> 
+       
+            <tr><td align="center" colspan="2"> Add a new Product</td></tr>
+            <tr>
+<td>Item Name: </td> <td><input type="text" name="name"></td>
+</tr>
+<tr>
+    <td>Description: </td> <td><input type="text" name = "desc"></td>
+    </tr>
+<tr>
+<td>Price: </td> <td><input type="text" name = "price"></td>
+<tr> 
+<td>Photo: </td> <td><input type="file" name="photo"></td>
+</tr>
+    <tr>
+<td align="center" colspan="2"><input type="submit" value="Add" name="Submit"> </td>
+</tr>
+  </form>
+</table>
+  </center>
+  </body>
+</html>
