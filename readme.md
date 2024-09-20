@@ -1,3 +1,3 @@
 # eCommerce Web Application
 
-Built using technologies suchas: HTML, css, JavaScript, PHP, MySQL.
+Built using technologies suchas: HTML, CSS, JavaScript, PHP, MySQL.
